@@ -1,10 +1,8 @@
-resource "supabase_project" "production" {
-  organization_id   = var.organization_id
-  name              = var.name
-  database_password = var.database_password
-  region            = var.region
-
-  lifecycle {
-    ignore_changes = [database_password]
-  }
+module "supabase" {
+  source                = "./modules/supabase"
+  supabase_access_token = var.supabase_access_token
+  organization_id       = var.organization_id
+  project_name          = var.project_name
+  database_password     = var.database_password
+  region                = var.region
 }
