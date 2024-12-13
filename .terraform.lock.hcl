@@ -1,0 +1,25 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/supabase/supabase" {
+  version     = "1.4.2"
+  constraints = "~> 1.0"
+  hashes = [
+    "h1:TAOlxtpGyiBvt83R++Hde5XqaNel1Cx6W6jI8Z4nP1k=",
+    "zh:08f3b7f8e86d960205f99550ed997cdad35318dd7a3454aa3d1798b4c5d48067",
+    "zh:1f367dad57988c0d2e43a2d749561b06428b6e3139a17712348e79f4a950031e",
+    "zh:20ca4e9db71763465da6804a25a004fa879cbdd5d3a9abbbdc219120e0c2bddb",
+    "zh:257019e6bb25058506b27788ee539d34430f11210af4b1a4acb9ec92643b088c",
+    "zh:363a477ee4fb435d5c8bc2424e6c7ae69bc27ae86aad410d79fcd6bc6990c5ca",
+    "zh:3cf9378fb4780f3649cfcb80db43827fa891f708c77607e99e75e16ace5117da",
+    "zh:3d81bf1df0f3ab5632a41b19f03afa74f7fb02718bcb0c1f77b9949b23427216",
+    "zh:3ec07b246dff0f033d7e0fb7eec596905a7a3804372633f7d732225afd7674ad",
+    "zh:815a01ea1275df4a7acd15332dc32f944527944200630eca9f4dc61cdf6cedc6",
+    "zh:890df766e9b839623b1f0437355032a3c006226a6c200cd911e15ee1a9014e9f",
+    "zh:8c6004bc75873d44665bb528762e060785f02b94409f2a7ebfa6e290bf15c9ee",
+    "zh:94b0890bf3dda2f7bf27bd3a10a9662dd5533a5c485ce3c3e7a5649e796b64a7",
+    "zh:d2a17d001412ddde358683978f32d399506592e42d798c930bf5c6d9f427f144",
+    "zh:dc94cfa002d69a20571b486f14ea99d315ae65b4e272da3921e6c897ee627578",
+    "zh:f4dceff2602161d25eb8fd577d19c750db4b9e9f33dd8d5d71b0750ae7309687",
+  ]
+}
